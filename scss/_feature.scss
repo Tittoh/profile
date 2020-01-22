@@ -1,0 +1,40 @@
+.tools_expert{
+	padding: 20px 0px 0px 0px;
+	.skill_main{
+		.skill_item{
+			margin-bottom: 18px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			h4{
+				text-align: none;
+				font-size: 14px;
+				font-family: $rob;
+				font-weight: 500;
+				color: $dip;
+				margin-bottom: 15px;
+			}
+			.progress_br{
+				border: 1px solid #eeeeee;
+				padding: 5px;
+				border-radius: 10px;
+			}
+			.progress{
+				height: 10px;
+				border-radius: 10px;
+				background: #e8e8e8;
+				.progress-bar{
+					width: 0%;
+					transition: width .6s ease;
+					height: 10px;
+					border-radius: 5px;
+					vertical-align: middle;
+					align-self: center;
+					background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+					background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+					background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+				}
+			}
+		}
+	}
+}
